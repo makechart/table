@@ -1,7 +1,7 @@
 module.exports =
   pkg:
     name: 'table', version: '0.0.1'
-    extend: {name: "empty", version: "0.0.1"}
+    extend: {name: "@makechart/empty"}
     dependencies: [
       {url: "/assets/lib/gridjs/main/gridjs.production.min.js"}
       {url: "/assets/lib/gridjs/main/theme/mermaid.min.css"}
